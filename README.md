@@ -13,7 +13,7 @@ This is a simple Q&A platform built using Django.
 Install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/quora-clone.git
+git clone https://github.com/keshavsain123/quora_clone.git
 cd quora-clone
 python -m venv venv
 source venv/bin/activate
