@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Pipenv
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# Virtualenv
+venv/
+ENV/
+env/
+.quora_clone_env/
+venv.bak/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+
+# Migrations (optional to ignore if you prefer keeping them)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment below to ignore migrations entirely
+# */migrations/
+
+# MySQL or PostgreSQL dumps
+*.sql
+
+# dotenv
+.env.*

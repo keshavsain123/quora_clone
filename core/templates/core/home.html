@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %} {% block content %}
+<h2>Recent Questions</h2>
+
+{% for question in questions %}
+<div>
+  <h3>
+    <a href="{% url 'question_detail' question.pk %}">{{ question.title }}</a>
+  </h3>
+  <p>
+    By {{ question.created_by }} | {{ question.created_at|date:"SHORT_DATETIME_FORMAT" }}
+  </p>
+</div>
+{% empty %}
+<p>No questions yet.</p>
+{% endfor %} {% endblock %}
